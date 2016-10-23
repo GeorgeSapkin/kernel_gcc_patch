@@ -52,6 +52,14 @@ The kernel uses its own set of CFLAGS, KCFLAGS. For exmaple, see:
     <td>-march=bdver3</td>
   </tr>
   <tr>
+    <td>AMD Excavator Family 15h (Excavator)</td>
+    <td>-march=bdver4</td>
+  </tr>
+  <tr>
+    <td>AMD Zen Family 17h (Zen) (GCC >= 6.2)</td>
+    <td>-march=znver1</td>
+  </tr>
+  <tr>
     <td>Intel Bonnell family of low-power Atom processors (Bonnell)</td>
     <td>-march=bonnell</td>
   </tr>
