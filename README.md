@@ -20,16 +20,16 @@ The kernel uses its own set of CFLAGS, KCFLAGS. For exmaple, see:
     <td>-march=native</td>
   </tr>
   <tr>
+    <td>AMD K8-family</td>
+    <td>-march=k8</td>
+  </tr>
+  <tr>
     <td>AMD Improved K8-family</td>
     <td>-march=k8-sse3</td>
   </tr>
   <tr>
-    <td>AMD K10-family</td>
+    <td>AMD Family 10h (K10/Barcelona)</td>
     <td>-march=amdfam10</td>
-  </tr>
-  <tr>
-    <td>AMD Family 10h (Barcelona)</td>
-    <td>-march=barcelona</td>
   </tr>
   <tr>
     <td>AMD Family 14h (Bobcat)</td>
